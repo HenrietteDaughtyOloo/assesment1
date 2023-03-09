@@ -22,7 +22,10 @@ fun twoStrings(one:String, two:String) {
 /*Write and invoke one function that takes in an array of integers and returns
 these 3 values: smallest, largest and average of all the elements*/
 fun intArray(intArray: IntArray):IntArray{
-    var z = ()
+    var z = intArray.minOrNull()
+    var y = intArray.maxOrNull()
+    var q = intArray.average()
+
 
 }
 /*Write and call a function that takes in a string and splits it into all the
